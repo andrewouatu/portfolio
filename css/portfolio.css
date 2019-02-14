@@ -1,0 +1,9 @@
+/* Sizing for profile picture */
+#page-top .masthead .img-fluid{
+    width: 25%;
+}
+
+/* Sizing for project modal pop-up */
+.mfp-container .portfolio-modal .portfolio-modal-dialog bg-white{
+    margin: 0;
+}
