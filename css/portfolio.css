@@ -3,7 +3,10 @@
     width: 25%;
 }
 
-/* Sizing for project modal pop-up */
-.mfp-container .portfolio-modal .portfolio-modal-dialog bg-white{
-    margin: 0;
+/* Sizes portfolio modal */
+#page-top .portfolio-modal{
+    width: 50%;
+    margin: 0 auto;
 }
+
+
