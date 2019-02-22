@@ -258,6 +258,7 @@ header.masthead h2 {
 
 .portfolio-modal .portfolio-modal-dialog .close-button i {
   line-height: 38px;
+  color: #348AA7;
 }
 
 .portfolio-modal .portfolio-modal-dialog h2 {
@@ -340,11 +341,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #348AA7;
+  color: #fff;
 }
 
-a:focus, a:hover, a:active {
-  color: #3C4859;
+a:hover{
+  color: #348AA7;
 }
 
 .btn {
@@ -383,6 +384,6 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #3C4859;
+  border-color: #3C4859;
 }
