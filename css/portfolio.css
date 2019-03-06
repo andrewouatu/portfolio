@@ -36,7 +36,7 @@
     width: 100px;
 }
 
-/* Add spacing between dev icon rows */
+/* Adds spacing between dev icon rows */
 #page-top .bg-primary .container .row-space{
     margin-bottom: 5%;
 }
@@ -46,6 +46,35 @@
     margin-top: 2.0rem !important;
 }
 
-/* *******MEDIA QUERIES******* */
+/* Aligns contact icons in contact icons */
+#page-top #contact .container .row .contact-icon{
+    display: inline-block;
+}
 
+/* Aligns contact details in contact section */
+#page-top #contact .container .row .contact-details{
+    display: inline-block;
+    vertical-align: middle;
+}
 
+/* Aligns all contact items evenly */
+#page-top #contact .container .row{
+    justify-content: space-between;
+}
+
+/* Adds space between icon and content */
+#page-top #contact .container .row .contact-details p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Adds color to contact icons */
+#page-top #contact .container .row .contact-icon{
+    color: #EE6C4D;
+}
+
+/* Adds color to contact text links */
+#page-top #contact .container .row .contact-details a{
+    color: black;
+    font-weight: bold;
+}
