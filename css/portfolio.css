@@ -5,7 +5,7 @@
 
 /* Sizes portfolio modal */
 #page-top .portfolio-modal{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -77,4 +77,43 @@
 #page-top #contact .container .row .contact-details a{
     color: black;
     font-weight: bold;
+}
+
+/* Aligns links in project modal */
+#page-top .mfp-container .mfp-content .row .modal-links{
+    display: flex;
+    justify-content: left;
+    margin: 20px 0 0 0;
+}
+
+/* Changes color of project modal links */
+#page-top .mfp-container .mfp-content .row .modal-links a{ 
+    color:#348AA7;
+    font-weight: bold;
+}
+
+/* Adds space to project modal links */
+#page-top .mfp-container .mfp-content .row .modal-links .spacer{ 
+    margin: 0 20px 10px 20px;
+}
+
+/* Resize list to table demo video */
+#page-top .mfp-container #portfolio-modal-1 .container .demo-video video{
+    width: 100%;
+}
+
+/* Aligns text in list to table modal modal */
+#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 .mb-3{
+    text-align: left;
+}
+
+/* Aligns ul text in list to table modal */
+#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 ul{
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 ul li span{
+    font-weight: bold;
+    color: black;
 }
