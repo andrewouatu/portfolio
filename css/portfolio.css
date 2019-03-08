@@ -113,7 +113,12 @@
     margin-bottom: 1.5rem;
 }
 
-#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 ul li span{
-    font-weight: bold;
-    color: black;
+/* Align portfolio project boxes evenly */
+#page-top #portfolio .portfolio .row{
+    justify-content: space-evenly;
+}
+
+/* Resizes portfolio project boxes */
+#page-top #portfolio .row .box-size{
+    max-width: 32%;
 }
