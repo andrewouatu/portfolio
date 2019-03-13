@@ -1,3 +1,10 @@
+/* Adds circle to intials in nav */
+#initials a{
+    border: solid 2px #ffff;
+    padding: 7px;
+    border-radius: 50px;
+}
+
 /* Sizing for profile picture */
 #page-top .masthead .img-fluid{
     width: 25%;
@@ -72,7 +79,7 @@
 
 /* Adds color to contact icons */
 #page-top #contact .container .row .contact-icon{
-    color: #FC4C02;
+    color: #E37222
 }
 
 /* Adds color to contact text links */
@@ -129,7 +136,7 @@
     margin-left: 0px;
 }
 
-/* ********************MEDIA QUERIES******************** */
+/* ********************************************MEDIA QUERIES******************************************** */
 
 /* iPad Pro - Portrait */
 @media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation : portrait) {
