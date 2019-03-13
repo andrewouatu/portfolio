@@ -4,9 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
- /* MAIN COLOR: #348AA7;  */
- /* SECONDARY/HIGHLIGHT COLOR: #3C4859;  */
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -138,7 +135,7 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  font-size: 78%;
   padding: 0.8rem;
 }
 
@@ -212,7 +209,8 @@ header.masthead h2 {
 .portfolio .portfolio-item {
   position: relative;
   display: block;
-  max-width: 25rem;
+  /* Prevents portfolio project boxes from being too small */
+  /* max-width: 25rem; */
   margin-bottom: 15px;
 }
 
@@ -220,11 +218,11 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #348AA7;
+  background-color:rgb(0,0,0);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -259,6 +257,11 @@ header.masthead h2 {
 .portfolio-modal .portfolio-modal-dialog .close-button i {
   line-height: 38px;
   color: #348AA7;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i:hover {
+  line-height: 38px;
+  color: #3C4859;
 }
 
 .portfolio-modal .portfolio-modal-dialog h2 {
