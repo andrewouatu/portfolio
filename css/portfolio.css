@@ -107,25 +107,35 @@
 }
 
 /* Resize list to table demo video */
-#page-top .mfp-container #portfolio-modal-1 .container .demo-video video{
+/* #page-top .mfp-container #portfolio-modal-1 .container .demo-video video{
+    width: 100%;
+} */
+#page-top .mfp-container .portfolio-modal .container .demo-video video{
     width: 100%;
 }
 
 /* Aligns text in list to table modal modal */
-#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 .mb-3{
+/* #page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 .mb-3{
+    text-align: left;
+} */
+#page-top .mfp-container .portfolio-modal .container .row .col-lg-8 .mb-3{
     text-align: left;
 }
 
 /* Aligns ul text in list to table modal */
-#page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 ul{
+/* #page-top .mfp-container #portfolio-modal-1 .container .row .col-lg-8 ul{
+    text-align: left;
+    margin-bottom: 1.5rem;
+} */
+#page-top .mfp-container .portfolio-modal .container .row .col-lg-8 ul{
     text-align: left;
     margin-bottom: 1.5rem;
 }
 
 /* Resizes portfolio project boxes */
-#page-top #portfolio .row .box-size{
+/* #page-top #portfolio .row .box-size{
     max-width: 32%;
-}
+} */
 
 /* Align portfolio project boxes evenly and removes vertical white gutter on right side*/
 #page-top #portfolio .portfolio .row{
