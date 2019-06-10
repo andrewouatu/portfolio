@@ -1,3 +1,16 @@
+/* Hero Image */
+.masthead{
+    height: 100vh;
+    background-image: url("../img/mountain.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Changes color of menu background color in mobile */
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover{
+    background-color: #232323 !important;
+  }
+
 /* Adds circle to intials in nav */
 #initials a{
     border: solid 2px #ffff;
@@ -79,7 +92,7 @@
 
 /* Adds color to contact icons */
 #page-top #contact .container .row .contact-icon{
-    color: #E37222
+    color: #E37222;
 }
 
 /* Adds color to contact text links */
@@ -97,7 +110,7 @@
 
 /* Changes color of project modal links */
 #page-top .mfp-container .mfp-content .row .modal-links a{ 
-    color:#348AA7;
+    color: #303030;
     font-weight: bold;
 }
 
@@ -147,6 +160,9 @@
 }
 
 /* ********************************************MEDIA QUERIES******************************************** */
+@media screen and (orientation: portrait){
+
+}
 
 /* iPad Pro - Portrait */
 /* @media only screen and (height : 1366px) and (width : 1024px) and (orientation : portrait){
