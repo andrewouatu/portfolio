@@ -159,6 +159,21 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
     margin-left: 0px;
 }
 
+/* Formats text in first paragraoh in about section */
+#page-top #about .row .lead{
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.4rem;
+}
+
+/* Formats text in the other paragraphs in about section */
+#page-top #about .row .about{
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
 /* ********************************************MEDIA QUERIES******************************************** */
 @media screen and (orientation: portrait){
 

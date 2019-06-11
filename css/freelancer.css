@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
- /* OLD TEAL COLOR: #348AA7 */
- /* OLD NAVY COLOR: #3C4859  */
+ /* OG TEAL COLOR: #348AA7 */
+ /* NEW TEAL COLOR: #557E88 */
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -51,7 +51,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #348AA7;
+  background-color: #557E88;
 }
 
 hr.star-dark {
@@ -126,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #348AA7;
+  color: #557E88;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -134,7 +134,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #348AA7;
+  color: #557E88;
 }
 
 #mainNav .navbar-toggler {
@@ -327,7 +327,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #348AA7;
+  color: #557E88;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -350,7 +350,7 @@ a {
 }
 
 a:hover{
-  color: #348AA7;
+  color: #557E88;
 }
 
 .btn {
