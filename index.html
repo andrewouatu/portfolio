@@ -7,7 +7,7 @@
     <meta name="description" content="Andrew Ouatu">
     <meta name="author" content="Andrew Ouatu">
     <link rel="icon" href="img/ao.png">
-    <title>Andrew Ouatu | Portfolio</title>
+    <title>Andrew Ouatu - Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,10 +29,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <div id="initials">
+        <!-- <div id="initials">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">AO</a>
-        </div>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        </div> -->
+        <button class="navbar-toggler navbar-toggler-right text-uppercase mobile-menu-color text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars fa-2x"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -47,8 +47,8 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Resume</a>
-              </li>
+                <a target="_blank" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="files/andrewouatu_resume.pdf">Resume</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,6 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid d-block mx-auto" src="img/andrew-profile.gif" alt="">
         <h1 class="text-uppercase mb-0">Andrew Ouatu</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Front-End Web Developer</h2>
@@ -70,34 +69,34 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-          <div class="col-md-6 col-lg-4 box-size">
+          <div class="col-md-6 col-lg-4 col-sm-6 box-size">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <p>List To Table</p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/listtotable.png" alt="">
+              <img class="img-fluid" src="img/listtotable.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 box-size">
+          <div class="col-md-6 col-lg-4 col-sm-6 box-size">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <p>National Parks Match</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/npsmatch.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-6 box-size">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <p>Buzzer Eater</p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/listtotable.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 box-size">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <p>National Parks - Memory Match</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/listtotable.png" alt="">
+              <img class="img-fluid" src="img/buzzereater.png" alt="">
             </a>
           </div>
         </div>
@@ -110,13 +109,22 @@
 
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5">
-
-        <div class="row">
-          <!-- Single paragraph layout -->
-          <div class="col-lg-12 ml-auto">
-            <p class="lead">Hi there! My name's Andrew and I'm a front-end web developer based in Orange County, CA.</p>
+          <div class="row">
+            <div class="col-md-6 ml-auto">
+              <img class="img-fluid d-block mx-auto" src="img/andrewbw.jpg" alt="profile-picture">
+            </div>
+            <div class="col-md-6 ml-auto">
+              <p class="lead">Hello! My name is Andrew Ouatu and I'm a front-end web developer based in Southern California.</p>
+              <p class="about">My journey into programming has taken me from a fascination with computers and technology since I was young, 
+                to gaining real world professional experience in various technical fields, to finally enrolling and completing an accelerated 
+                web development program which helped lay the foundation and teach me the fundamentals of programming.
+              </p>
+              <p class="about">I am currently looking  for a position that will allow me to further learn and grow my career as a developer 
+                and would love to connect with you to learn more.
+              </p>
+            </div>
           </div>
-        </div>
+        
 
         <h2 class="text-center text-uppercase text-white">Skills</h2>
         <hr class="star-light mb-5">
@@ -201,9 +209,7 @@
 
 
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            View Resume
-          </a>
+          <a target="_blank" class="btn btn-xl btn-outline-light" href="files/andrewouatu_resume.pdf">View Resume</a>
         </div>
       </div>
     </section>
@@ -262,7 +268,7 @@
                 <i class="fas fa-map-marker-alt fa-2x"></i>
             </div>
             <div class="contact-details">
-              <p>Orange County, CA</p>
+              <p>Southern California</p>
             </div>
           </div>
           <div class="contact-spacing" col-sm-4>
@@ -324,7 +330,7 @@
       </div>
       <div class="copyright py-4 text-center text-white">
           <div class="container">
-            <small>&copy; 2019 Andrew Ouatu. All Rights Reserved.</small>
+            <small>&copy; 2019 | Andrew Ouatu</small>
           </div>
       </div>
     </footer>
@@ -351,7 +357,7 @@
               <hr class="star-dark mb-5">
               <div class="demo-video">
                   <video controls autoplay muted loop>
-                      <source src="img/listtotabledemo.mp4" type="video/mp4">
+                      <source src="video/listtotabledemo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
               </div>
@@ -370,8 +376,8 @@
               </div>
               <p class="mb-3">List To Table is a dual interface application designed to help people find a place to eat and reserve a table as easily as possible.<br>Customers can quickly check how busy a restaurant is and remotely add themselves to a waitlist. Restaurants can efficiently manage their waitlist and notify customers as soon as a table is available.</p>
               <ul>
-                <li>Worked with a team of 5 developers to build and complete this project.</li>
-                <li>My responsibilities included creating various React components, integrating the Google Places Autocomplete API, and adding styling with the usage of Materialize and CSS3.</li>
+                <li>Worked with a team of 5 developers to build and complete this project</li>
+                <li>My responsibilities included creating various React components, integrating the Google Places Autocomplete API, and adding styling with the usage of Materialize and CSS3</li>
                 <li>Technologies: React.js, Redux, JavaScript, HTML5, CSS3, Materialize, PHP, Node.js, MySQL, Google Places API, Google Maps Distance Matrix API, Google Places Autocomplete API, Twillio API</li>
               </ul>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -392,10 +398,33 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Buzzer Eater</h2>
+              <h2 class="text-secondary text-uppercase mb-0">National Parks Match</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/listtotable.png" alt="">
-              <p class="mb-5">Buzzer Eater description will go here</p>
+              <div class="demo-video">
+                  <video controls autoplay muted loop>
+                      <source src="video/nationalparksmatchdemo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+              </div>
+              <div col-lg-4 class="modal-links">
+                  <div>
+                      <i class="fas fa-globe-americas"></i>
+                      <a href="https://andrewouatu.com/nationalparksmatch/" target="blank">Live</a>
+                  </div>
+                  <div class="spacer">
+                      <p>|</p>
+                  </div>
+                  <div>
+                      <i class="fab fa-github"></i>
+                      <a href="https://github.com/andrewouatu/nationalParksMatch" target="blank">GitHub</a>
+                  </div>
+              </div>
+              <p class="mb-3">A fun card matching game that I built as a solo project.</p>
+              <ul>
+                <li>Utilized JavaScript for controlling the game logic, tracking stats, and checking the win conditions.</li>
+                <li>Implemented jQuery for dynamically creating the game area and used HTML5, CSS3, and Bootstrap for the layout, design, and responsiveness of the game.</li>
+                <li>Technologies Used: HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
+              </ul>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -414,10 +443,33 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Memory Match</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Buzzer Eater</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/listtotable.png" alt="">
-              <p class="mb-5">Memory Match description will go here</p>
+              <div class="demo-video">
+                  <video controls autoplay muted loop>
+                      <source src="video/buzzereaterdemo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+              </div>
+              <div col-lg-4 class="modal-links">
+                  <div>
+                      <i class="fas fa-globe-americas"></i>
+                      <a href="https://andrewouatu.com/buzzereater/" target="blank">Live</a>
+                  </div>
+                  <div class="spacer">
+                      <p>|</p>
+                  </div>
+                  <div>
+                      <i class="fab fa-github"></i>
+                      <a href="https://github.com/andrewouatu/buzzerEater" target="blank">GitHub</a>
+                  </div>
+              </div>
+              <p class="mb-3">Buzzer Eater is a single page application that allows users to find local sports bars, view a live updating scoreboard for NBA games, and a NBA twitter feed.</p>
+              <ul>
+                <li>Worked with a team of 5 developers to build and complete this project</li>
+                <li>My responsibility was retrieving data from the Twitter API and integrating it within our application</li>
+                <li>Technologies Used: HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
+              </ul>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>

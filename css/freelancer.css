@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Freelancer v5.0.0 (https://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
@@ -48,11 +48,11 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #348AA7;
+  background-color: #557E88;
 }
 
 hr.star-dark {
-  border-color: #3C4859;
+  border-color: #303030;
 }
 
 hr.star-dark:after {
@@ -123,7 +123,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #348AA7;
+  color: #557E88;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -131,7 +131,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #348AA7;
+  color: #557E88;
 }
 
 #mainNav .navbar-toggler {
@@ -161,9 +161,8 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    /* THIS IS THE HOVER NAV HIGHLIGHT SQUARE*/
-    /* background: #18BC9C; */
   }
+
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -256,12 +255,12 @@ header.masthead h2 {
 
 .portfolio-modal .portfolio-modal-dialog .close-button i {
   line-height: 38px;
-  color: #348AA7;
+  color: #303030;
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button i:hover {
   line-height: 38px;
-  color: #3C4859;
+  color: #303030;
 }
 
 .portfolio-modal .portfolio-modal-dialog h2 {
@@ -325,7 +324,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #348AA7;
+  color: #557E88;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -335,12 +334,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #3C4859;
+  background-color: #232323;
   color: #fff;
 }
 
 .copyright {
-  background-color: #3C4859;
+  background-color: #232323;
 }
 
 a {
@@ -348,7 +347,7 @@ a {
 }
 
 a:hover{
-  color: #348AA7;
+  color: #557E88;
 }
 
 .btn {
@@ -356,37 +355,41 @@ a:hover{
 }
 
 .bg-primary {
-  background-color: #348AA7 !important;
+  background-color: #303030 !important;
 }
 
 .bg-secondary {
-  background-color: #3C4859 !important;
+  background-color: #232323 !important;
 }
 
 .text-primary {
-  color: #348AA7 !important;
+  color: #303030 !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #303030 !important;
 }
 
 .btn-primary {
-  background-color: #348AA7;
-  border-color: #348AA7;
+  background-color: #303030;
+  border-color: #303030;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #3C4859;
-  border-color: #3C4859;
+  background-color: #303030;
+  border-color: #303030;
 }
 
-.btn-secondary {
-  background-color: #3C4859;
-  border-color: #3C4859;
+.mobile-menu-color{
+  background-color: #232323 !important;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+/* .btn-secondary {
   background-color: #3C4859;
   border-color: #3C4859;
-}
+} */
+
+/* .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #3C4859;
+  border-color: #3C4859;
+} */
